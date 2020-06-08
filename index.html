@@ -3,11 +3,46 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="style.css">
     <title>Quiz Page</title>
 </head>
 <body>
+    <div id="gameArea">
+        <nav>
+            <div>
+                <a href="#">View Highscores</a></li>
+                <p id="timer">Time:99</p>
+            </div>
+        </nav>
+        <div id="gameStartArea">
+            <h1>Coding Quiz Challenge</h1>
+            <p>Try to answer the following code-related questions within the time limit. Keep in mind that incorrect answers will penalize your score/time by ten seconds</p>
+            <button type="button">Start Quiz</button>
+        </div>
+        <div id="gameQuestions">
+            <h2>javascript question</h2>
+            <button id="button1">1. JS question</button>
+            <button id="button2">2. JS question</button>
+            <button id="button3">3. JS question</button>
+            <button id="button4">4. JS question</button>
+        </div>
+        <div id="gameFinaleScore">
+            <h2>All Done!</h2>
+            <p>Your score is 22</p>
+            <form>
+                <label for="highScoreInitials">Intials</label>
+                <input type="text" id="highScoreInitials" name="highScoreInitials" maxlength="2">
+                <input type="submit" value="Submit">
+            </form>
+        </div>
+    </div>
+    <div id="gameAreaEnd">
+        <h1>Highscores</h1>
+        <div id="HighscoreBox">1. AB - 22</div>
+        <button type="button">Go Back</button>
+        <button type="button">Clear Highscores</button>
+    </div>
     <script type="text/javascript" src="javascript.js"></script>
 </body>
 </html>
