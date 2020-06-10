@@ -1,4 +1,4 @@
-//gameAreaStart div selector
+/*//gameAreaStart div selector
 let gameAreaStart = document.querySelector("#gameAreaStart");
 //gameIntroScreen
 let gameIntroScreen = document.querySelector("#gameIntroScreen");
@@ -64,4 +64,4 @@ function resetGame () {
     gameQuestions.style.display = "none";
     gameFinaleScore.style.display = "none";
     gameAreaEnd.style.display = "none";
-}
+}*/

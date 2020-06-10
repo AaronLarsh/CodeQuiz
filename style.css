@@ -1,0 +1,6 @@
+#gameIntroScreen, #gameQuestions, #gameFinaleScore, #gameAreaEnd {
+    padding: 20px;
+}
+#gameIntroScreenBtn {
+    align-self: center;
+}
