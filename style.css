@@ -16,3 +16,11 @@ button {
     background-color: blueviolet;
     color: white;
 }
+div.col-6 {
+    padding-left: 0px;
+    margin-left: 0px;
+    border-left: 0px;
+}
+button#viewHighScores {
+    margin-left: 0px;
+}
