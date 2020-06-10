@@ -4,3 +4,15 @@
 #gameIntroScreenBtn {
     align-self: center;
 }
+button {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
+#submitHighscore {
+    border-radius: 10px;
+    background-color: blueviolet;
+    color: white;
+}
