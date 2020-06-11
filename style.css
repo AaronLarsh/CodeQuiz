@@ -24,3 +24,9 @@ div.col-6 {
 button#viewHighScores {
     margin-left: 0px;
 }
+p#timer {
+    margin-top: 10px;
+}
+#introPara {
+    margin-right: 0px;
+}
